@@ -20,7 +20,6 @@ service = Service(executable_path=CHROME_DRIVER_PATH)
 driver = webdriver.Chrome(service=service, options=chrome_options)
 wait = WebDriverWait(driver, WAIT_TIME)
 
-# === STORAGE ===
 all_data = []
 
 def load_all_vendors():
