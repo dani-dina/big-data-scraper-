@@ -14,7 +14,6 @@ BASE_URL = "https://www.example.com"
 WAIT_TIME = 60
 OUTPUT_FILE = "contract_research_map_all_vendors.xlsx"
 
-# === SETUP DRIVER ===
 chrome_options = Options()
 chrome_options.add_argument("--start-maximized")
 service = Service(executable_path=CHROME_DRIVER_PATH)
