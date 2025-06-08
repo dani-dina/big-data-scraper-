@@ -32,7 +32,6 @@ def load_all_vendors():
         except:
             break
 
-# === START SCRAPING ===
 print("Starting scrape...")
 driver.get(BASE_URL)
 wait.until(EC.presence_of_element_located((By.ID, "locations")))
