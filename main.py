@@ -9,7 +9,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
-# === CONFIGURATION ===
 CHROME_DRIVER_PATH = r"C:\Users\Kibret\Desktop\chromedriver-win64\chromedriver.exe"
 BASE_URL = "https://www.example.com"
 WAIT_TIME = 60
