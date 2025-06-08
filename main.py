@@ -12,7 +12,7 @@ from selenium.common.exceptions import TimeoutException
 CHROME_DRIVER_PATH = r"C:\Users\Kibret\Desktop\chromedriver-win64\chromedriver.exe"
 BASE_URL = "https://www.example.com"
 WAIT_TIME = 60
-OUTPUT_FILE = "contract_research_map_all_vendors.xlsx"
+OUTPUT_FILE = "output.xlsx"
 
 chrome_options = Options()
 chrome_options.add_argument("--start-maximized")
