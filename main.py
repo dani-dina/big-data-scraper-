@@ -96,6 +96,5 @@ if all_data:
 else:
     print("\nNo vendor data found.")
 
-# === DONE ===
 driver.quit()
 print("All countries scraped.")
